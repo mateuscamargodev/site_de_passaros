@@ -1,0 +1,107 @@
+html {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(68, 65, 65);
+    padding: 50px;
+    color: rgb(238, 228, 228);
+}
+
+header h1 {
+    width: 50%;
+    display: inline-block;
+}
+
+header button {
+    background-color: rgb(226, 225, 225);
+    border: none;
+    color: rgb(100, 93, 93);
+    padding: 7px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    font-size: 13px;
+    transition: 0.3s;
+    position: relative;
+    left: 30%;
+}
+
+header button:hover {
+    background-color:rgb(8, 189, 8);   
+    color: rgb(243, 237, 237);
+    font-size: 15px;
+}
+
+#principal {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+#principal ul {
+    list-style-type: none;
+    padding: 0; 
+    margin: 30px 0;
+}
+
+#principal ul li {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid rgb(77, 76, 76);
+    background-color: rgb(139, 133, 133);
+    color: rgb(236, 232, 232);
+}
+
+.imagem {
+    opacity: 0.8;
+    width: 100%;
+    transition: 0.3s;
+    margin: 15px 0;
+}
+
+.imagem:hover {
+    opacity: 1.0;
+}
+
+.imagem2 {
+    opacity: 0.9;
+    width: 100%;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.imagem2:hover {
+    opacity: 1.0;
+}
+
+.figura {
+    width: 45%;
+    display: inline-block;
+    margin: 0;
+    height: 200px;
+}
+
+table {
+    width: 50%;
+    color: rgb(230, 228, 228);
+    background-color: rgb(90, 88, 88);
+    margin: auto;
+    padding: 10px;
+}
+
+table td,th {
+    border: 1px solid rgb(77, 76, 76);
+    transition: 0.3s;
+}
+
+table td:last-child {
+    cursor: pointer;
+}
+
+table td:last-child:hover {
+   background-color: white;
+   color: black;
+}
